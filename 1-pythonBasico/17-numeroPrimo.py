@@ -12,7 +12,6 @@ def es_primo(numero):
         return False        
     
 
-
 def run():
     numero = int(input("Escribe un numero: "))
     if es_primo(numero):#Si se espera que el return de la funcion sea True no es necesario declararlo
